@@ -4,10 +4,6 @@ const db = require("../database/dbConfig");
 
 describe("auth-router.js", () => {
   describe("auth route", () => {
-    // beforeEach(async () => {
-    //     await db("users").truncate();
-    //   });
-
     it("should return status 201 from auth register route", async () => {
       const expectedStatus = 201;
 
